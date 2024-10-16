@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buyButton.addEventListener('click', () => {
         if (currentItem) {
-            const phoneNumber = '573127349635'; // Reemplaza con el número de WhatsApp
+            const phoneNumber = '573128091713'; // Reemplaza con el número de WhatsApp
             const whatsappMessage = encodeURIComponent(`Hola, quiero comprar el ${currentItem.title}.`);
             const url = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
             window.open(url, '_blank');
